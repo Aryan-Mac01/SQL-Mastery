@@ -10,7 +10,9 @@ create table student(
     age int not null
 );
 
-INSERT INTO student VALUES(1, "Aryan", 26);
-INSERT INTO student VALUES(2, "Shivam", 27);
+drop table student;
 
-SELECT * FROM student;
+create table student(
+	rollno int primary key,
+    name varchar(50)
+);
