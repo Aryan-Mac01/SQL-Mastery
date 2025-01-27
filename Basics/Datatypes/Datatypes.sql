@@ -12,3 +12,7 @@
 12. DATE               -> date in format of YYYY-MM-DD ranging from 1000-01-01     -> DATE
                           to 9999-12-31                                          
 13. YEAR               -> year in 4 digits format ranging 1901 to 2155             -> YEAR
+
+
+I. SIGNED - Both negative and positive values included  -> (-128, 127)
+II. UNSIGNED - Only positive values included            -> (0,255)
