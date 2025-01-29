@@ -11,11 +11,16 @@ CREATE TABLE student(
 );
 
 INSERT INTO student
-(rollno, name, marks, city, grade)
+(rollno, name, marks, grade, city)
 values
 (101, "Aryan", 78, "A", "Pune"),
 (102, "Anurag", 93, "A", "Mumbai"),
 (103, "Ayush", 85, "A", "Bangalore"),
 (104, "Aarav", 96, "A", "Lucknow"),
 (105, "Aditi", 90, "A", "Surat"),
-(106, "Soham", 70, "A", "Hyderabad")
+(106, "Soham", 70, "A", "Hyderabad");
+
+
+SELECT name, marks from student;
+
+SELECT DISTINCT city FROM student;
