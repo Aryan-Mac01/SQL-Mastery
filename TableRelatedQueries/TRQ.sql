@@ -24,7 +24,6 @@ DELETE FROM student
 WHERE marks < 33;
 
 
-
 3. ALTER - To change the Schema
 
 --ADD
